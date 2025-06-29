@@ -1,0 +1,11 @@
+services:
+  api-tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: petstore-api-tests
+    volumes:
+      - ./allure-history:/usr/src/app/allure-history
+      - ./allure-results:/usr/src/app/allure-results
+    working_dir: /usr/src/app
+    command: ["bash", "run-tests.sh"]

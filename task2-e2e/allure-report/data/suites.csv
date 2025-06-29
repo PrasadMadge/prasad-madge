@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","13103","Verify that searching filters expenses correctly by category and amount","RegressionSuite","Sun Jun 29 23:38:14 CEST 2025","passed","Sun Jun 29 23:38:27 CEST 2025","tests.ExpenseTests","RegressionTests","tests.ExpenseTests","searchToolsFiltersExpenseCorrectly"
+"","8683","Verify expense is added correctly by category and amount","RegressionSuite","Sun Jun 29 23:37:45 CEST 2025","passed","Sun Jun 29 23:37:53 CEST 2025","tests.ExpenseTests","RegressionTests","tests.ExpenseTests","expenseIsAddedCorrectly"
+"","6771","Verify monthly budget is set correctly ","RegressionSuite","Sun Jun 29 23:37:16 CEST 2025","passed","Sun Jun 29 23:37:23 CEST 2025","tests.BudgetTests","RegressionTests","tests.BudgetTests","monthlyBudgetIsSetCorrectly"

@@ -1,0 +1,12 @@
+<suite name="RegressionSuite" verbose="1">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="RegressionTests">
+        <classes>
+            <class name="tests.BudgetTests" />
+            <class name="tests.ExpenseTests" />
+        </classes>
+    </test>
+</suite>

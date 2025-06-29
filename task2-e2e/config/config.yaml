@@ -1,0 +1,29 @@
+# mobile app platform name, ios, android
+platformName: android
+
+# device configs
+android:
+  deviceName: 3af79ef5
+  automationName: UiAutomator2
+  appPackage: com.monefy.app.lite
+  appActivity: com.monefy.activities.main.MainActivity_
+  app: build/monefy.apk
+  fullReset: true
+
+ios:
+  platformName: "iOS"
+  deviceName: "iPhone 14"
+  automationName: "XCUITest"
+  app: "/path/to/ios-app.app"
+  fullReset: false
+  bundleId: "com.example.ios"
+
+# appium server config
+nodePath: /usr/local/bin/node
+appiumJS: /usr/local/lib/node_modules/appium/index.js
+appiumPort: 4723
+appiumServerURL: 0.0.0.0
+
+# timeouts in seconds
+implicitWait: 10
+staleElementWait: 5
