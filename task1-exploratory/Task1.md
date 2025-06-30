@@ -54,10 +54,10 @@ Prasad M
 
 ## 🐞 Bugs Discovered
 
-| Bug ID  | Description                                                                                                                         | Priority | Image/logs |
-|---------|-------------------------------------------------------------------------------------------------------------------------------------|----------|-|
-| BUG-401 | Balance date range is incorrect if you add an expense for future date and later delete it, still shows future date in balance range | High     | ![img.png](bug resources/BUG-401.png) |
-| BUG-402 | Clicking on +-X🟰 equal while entering expense resets the expense value to 1 always                                                 | Low      | ![output1.gif](bug%20resources/BUG-401.gif)|
+| Bug ID  | Description                                                                                                                         | Priority | Image/logs                                   |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------|----------|----------------------------------------------|
+| BUG-401 | Balance date range is incorrect if you add an expense for future date and later delete it, still shows future date in balance range | High     | ![Bug screenshot](bug-resources/BUG-401.png) |
+| BUG-402 | Clicking on +-X🟰 equal while entering expense resets the expense value to 1 always                                                 | Low      | ![Bug gif](bug-resources/BUG-402.gif)        |
 
 
 # 📋 Exploratory Testing Charter 2: Budget Setup and Tracking
@@ -112,8 +112,8 @@ Prasad M
 
 ## 🐞 Bugs Discovered
 
-| Bug ID  | Description                                                                                                  | Priority                                         | Image/logs |
-|---------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-----------|
-| BUG-501 | Native keyboard reloads and blocks the view of the app while entering budget limit and clicking on Ok button | Low (Keyboard closed after clicking back button) | ![output.gif](bug%20resources/BUG-502.gif)|
+| Bug ID  | Description                                                                                                  | Priority                                         | Image/logs                            |
+|---------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|---------------------------------------|
+| BUG-501 | Native keyboard reloads and blocks the view of the app while entering budget limit and clicking on Ok button | Low (Keyboard closed after clicking back button) | ![Bug gif](bug-resources/BUG-502.gif) |
 
 
